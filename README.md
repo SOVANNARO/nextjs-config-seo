@@ -100,6 +100,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 </urlset>
 ```
 
+**Explanation**:
+
+- **changeFrequency**: Suggests how often the content changes. Options include `always`, `hourly`, `daily`, `weekly`, `monthly`, `yearly`, and `never`.
+- For a "daily gifts" page, `"daily"` is likely the best choice.
+
 ### 🤖 Config robots.txt
 
 - **Reference**: [Next.js Robots](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots)
